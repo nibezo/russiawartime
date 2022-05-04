@@ -1,0 +1,19 @@
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: rgb(255,0,123);
+    background: linear-gradient(93deg, rgba(255,0,123,1) 0%, rgba(255,0,0,1) 49%, rgba(219,0,117,1) 100%);
+    color: white;
+    font-size: 12;
+}
+
+header h1 {
+    padding: 100px;
+    text-align: center;
+    font-size: 4em;
+}
+
+main p {
+    margin-top: 0px;
+    font-size: 12em;
+    text-align: center;
+}
