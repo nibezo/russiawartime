@@ -34,4 +34,3 @@ let tag = document.createElement("p");
 let text = document.createTextNode(timeDiffCalc(new Date("2/24/2022"), today));
 tag.appendChild(text);
 day.appendChild(tag);
-
