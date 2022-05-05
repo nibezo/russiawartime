@@ -14,6 +14,112 @@ header h1 {
 }
 
 main p {
-    font-size: 9em;
+    font-size: 8em;
     text-align: center;
+}
+
+@media only screen and (max-width: 1560px) {
+    main p {
+        font-size: 7em;
+    }
+}
+@media only screen and (max-width: 1340px) {
+    main p {
+        font-size: 6em;
+    }
+    
+}
+@media only screen and (max-width: 1300px) {
+    main p {
+        font-size: 5em;
+    }
+    html {
+        background-size:auto;
+    }
+    header h1 {
+        font-size: 3em;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    main p {
+        font-size: 4em;
+    }
+    html {
+        background-size:auto;
+    }
+    header h1 {
+        font-size: 2.5em;
+    }
+}
+@media only screen and (max-width: 700px) {
+    main p {
+        font-size: 4em;
+    }
+    html {
+        background-image: none;
+        background-color: black;
+    }header h1 {
+    padding: 100px;
+    text-align: center;
+    font-size: 4em;
+}
+
+    body {
+        background-image: url(no-war_4x.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    header h1 {
+        padding: 50px;
+        font-size: 3em;
+    }
+}
+@media only screen and (max-width: 600px) {
+    main p {
+        font-size: 2em;
+    }
+    html {
+        background-image: none;
+        background-color: rgb(0, 0, 0);
+    }
+    body {
+        background-image: none;
+    }
+    header h1 {
+        font-size: 2em;
+    }
+}
+@media only screen and (max-width: 500px) {
+    main p {
+        font-size: 1.7em;
+    }
+    html {
+        background-image: none;
+        background-color: black;
+    }
+    body {
+        background-image: url(no-war_4x.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    header h1 {
+        font-size: 1.5em;
+    }
+}
+@media only screen and (max-width: 440px) {
+    main p {
+        font-size: 1.3em;
+    }
+    html {
+        background-image: none;
+        background-color: black;
+    }
+    body {
+        background-image: none;
+    }
+    header h1 {
+        font-size: 1em;
+    }
 }
